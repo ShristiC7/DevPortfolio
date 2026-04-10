@@ -1,0 +1,12 @@
+.section { position: relative; }
+.wrap { max-width: 780px; margin: 0 auto; padding: 6rem 2rem; }
+.sub { color: var(--dust-dim); font-weight: 300; margin-top: 0.4rem; }
+.track { margin-top: 3.5rem; }
+.item { display: flex; gap: 1.5rem; }
+.dotWrap { display: flex; flex-direction: column; align-items: center; gap: 0; flex-shrink: 0; padding-top: 4px; }
+.dot { width: 14px; height: 14px; border-radius: 50%; background: var(--void); border: 2px solid var(--lav); flex-shrink: 0; }
+.connector { flex: 1; width: 1px; background: linear-gradient(to bottom, rgba(196,168,255,0.25), rgba(196,168,255,0.05)); min-height: 40px; margin: 4px 0; }
+.content { padding-bottom: 3rem; }
+.year { font-family: var(--font-mono); font-size: 0.68rem; color: var(--lav-dim); letter-spacing: 0.12em; display: block; margin-bottom: 0.35rem; }
+.title { font-family: var(--font-display); font-size: 1.1rem; font-weight: 700; color: var(--dust); letter-spacing: -0.02em; margin-bottom: 0.4rem; }
+.desc { font-size: 0.88rem; color: var(--dust-dim); font-weight: 300; line-height: 1.7; }
