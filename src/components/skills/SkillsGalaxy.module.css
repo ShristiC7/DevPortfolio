@@ -1,0 +1,80 @@
+.section {
+  position: relative;
+  background: radial-gradient(ellipse 80% 60% at 50% 50%, rgba(128,60,255,0.05) 0%, transparent 70%);
+}
+.wrap {
+  max-width: 1100px; margin: 0 auto; padding: 6rem 2rem;
+}
+.subtitle {
+  color: var(--dust-dim); font-weight: 300; margin-top: 0.4rem; margin-bottom: 2rem;
+}
+
+.canvasWrap {
+  position: relative;
+  height: 520px;
+  border-radius: 24px;
+  border: 1px solid rgba(196,168,255,0.1);
+  background: rgba(255,255,255,0.015);
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+  cursor: crosshair;
+}
+.canvasWrap canvas { width: 100% !important; height: 100% !important; }
+
+/* Tooltip card */
+.tooltip {
+  position: absolute;
+  bottom: 1.5rem; left: 50%;
+  transform: translateX(-50%);
+  background: rgba(8,4,24,0.94);
+  border: 1px solid rgba(196,168,255,0.28);
+  border-radius: 16px;
+  padding: 1rem 1.4rem;
+  display: flex; align-items: center; gap: 1rem;
+  min-width: 220px;
+  backdrop-filter: blur(20px);
+  pointer-events: none;
+}
+.tooltipIcon { font-size: 1.75rem; flex-shrink: 0; }
+.tooltipBody { display: flex; flex-direction: column; gap: 0.18rem; }
+.tooltipBody strong {
+  font-family: var(--font-display);
+  font-size: 0.98rem; color: var(--lav);
+  font-weight: 700; letter-spacing: -0.01em;
+}
+.tooltipBody span { font-size: 0.74rem; color: var(--dust-dim); }
+.levelBar {
+  height: 3px; background: rgba(196,168,255,0.1);
+  border-radius: 2px; width: 130px; margin-top: 0.35rem; overflow: hidden;
+}
+.levelFill { height: 100%; border-radius: 2px; transition: width 0.5s ease; }
+.levelPct { font-family: var(--font-mono); font-size: 0.6rem; color: var(--lav-dim); letter-spacing: 0.08em; }
+
+/* Skill pills */
+.pillGrid { display: flex; flex-direction: column; gap: 0.9rem; }
+.pillGroup { display: flex; align-items: flex-start; gap: 1rem; flex-wrap: wrap; }
+.catLabel {
+  font-family: var(--font-mono); font-size: 0.64rem;
+  color: var(--lav-dim); letter-spacing: 0.14em;
+  text-transform: uppercase; min-width: 72px; padding-top: 0.32rem;
+}
+.pills { display: flex; flex-wrap: wrap; gap: 0.42rem; }
+.pill {
+  font-size: 0.78rem; color: var(--dust-dim);
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(196,168,255,0.1);
+  border-radius: 8px; padding: 0.28rem 0.72rem;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  cursor: default;
+}
+.pill:hover {
+  border-color: var(--pill-color, var(--lav));
+  color: var(--pill-color, var(--lav));
+  background: rgba(196,168,255,0.06);
+}
+
+@media (max-width: 768px) {
+  .canvasWrap { height: 340px; }
+  .pillGroup { flex-direction: column; gap: 0.45rem; }
+  .catLabel { min-width: auto; }
+}

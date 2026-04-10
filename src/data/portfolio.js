@@ -1,0 +1,253 @@
+// ════════════════════════════════════════════════
+//  SHRISTI CHOUDHARY — PORTFOLIO DATA
+// ════════════════════════════════════════════════
+
+export const personalInfo = {
+  name: 'Shristi Choudhary',
+  role: 'Full-Stack Developer & AI/ML Engineer',
+  tagline: 'Building intelligent applications at the edge of technology.',
+  description:
+    'Passionate full-stack developer focused on impactful web applications. Operating at the intersection of AI/ML and modern web development — where intelligent systems meet beautiful interfaces.',
+  github: 'https://github.com/ShristiC7',
+  linkedin: 'https://www.linkedin.com/in/shristi-c-3a3518290',
+  email: 'shristi@example.com',
+  photoPlaceholder: true, // set to false and add photo URL when available
+  photoUrl: null,         // e.g. '/assets/shristi.jpg'
+  available: true,
+  funFacts: [
+    { icon: '🎮', label: 'Strategy Gamer' },
+    { icon: '📚', label: 'Book Lover' },
+    { icon: '🌱', label: 'Open Source' },
+    { icon: '⚡', label: 'Hackathon Veteran' },
+    { icon: '🔬', label: 'DSA Explorer' },
+    { icon: '☕', label: 'Powered by Coffee' },
+  ],
+}
+
+export const skills = [
+  // Frontend
+  { name: 'React', category: 'Frontend', color: '#61DAFB', icon: '⚛', level: 90, desc: 'UI Component Framework' },
+  { name: 'TypeScript', category: 'Frontend', color: '#3178C6', icon: '🔷', level: 75, desc: 'Typed JavaScript' },
+  { name: 'JavaScript', category: 'Frontend', color: '#F7DF1E', icon: '✦', level: 92, desc: 'Core Web Language' },
+  { name: 'Tailwind CSS', category: 'Frontend', color: '#38B2AC', icon: '🎨', level: 85, desc: 'Utility-First CSS' },
+  { name: 'HTML/CSS', category: 'Frontend', color: '#E34F26', icon: '🌐', level: 95, desc: 'Web Foundations' },
+  // Backend
+  { name: 'Node.js', category: 'Backend', color: '#6DA55F', icon: '🟢', level: 85, desc: 'Server-Side JS Runtime' },
+  { name: 'Express.js', category: 'Backend', color: '#aaa', icon: '⚡', level: 88, desc: 'Node.js Framework' },
+  { name: 'Python', category: 'Backend', color: '#3776AB', icon: '🐍', level: 82, desc: 'AI/ML & Scripting' },
+  // Databases
+  { name: 'PostgreSQL', category: 'Database', color: '#4169E1', icon: '🗄', level: 78, desc: 'Relational Database' },
+  { name: 'MongoDB', category: 'Database', color: '#4ea94b', icon: '🍃', level: 80, desc: 'NoSQL Database' },
+  // Tools
+  { name: 'Git/GitHub', category: 'Tools', color: '#F05033', icon: '🐙', level: 90, desc: 'Version Control' },
+  { name: 'Figma', category: 'Tools', color: '#F24E1E', icon: '📐', level: 72, desc: 'UI/UX Design' },
+  { name: 'Postman', category: 'Tools', color: '#FF6C37', icon: '📬', level: 85, desc: 'API Testing' },
+  // Languages
+  { name: 'C++', category: 'Language', color: '#00599C', icon: '⚙', level: 70, desc: 'Systems Programming' },
+  // AI/ML
+  { name: 'AI/ML', category: 'AI', color: '#C4A8FF', icon: '🤖', level: 78, desc: 'Machine Learning' },
+  { name: 'NLP', category: 'AI', color: '#FF7EB3', icon: '💬', level: 72, desc: 'Natural Language Processing' },
+]
+
+export const projects = [
+  {
+    id: 1,
+    title: 'ClauseWise',
+    subtitle: 'AI Document Risk Analyzer',
+    description: 'AI Document Risk & Compliance Analyzer for SMBs. Fully functional and live — helping small businesses understand complex legal documents instantly through NLP.',
+    icon: '⚖',
+    iconBg: 'rgba(114,255,203,0.1)',
+    status: 'live',
+    statusLabel: '● Live',
+    stack: ['AI/ML', 'React', 'Node.js', 'NLP', 'Python'],
+    github: '#',
+    demo: '#',
+    featured: true,
+    color: '#72FFCB',
+  },
+  {
+    id: 2,
+    title: 'MindfulAI',
+    subtitle: 'Digital Mental Health System',
+    description: 'AI-powered Digital Mental Health care system providing personalized support, mood tracking and crisis resources through empathetic conversational interfaces.',
+    icon: '🧠',
+    iconBg: 'rgba(196,168,255,0.1)',
+    status: 'wip',
+    statusLabel: '◎ In Dev',
+    stack: ['AI/ML', 'Python', 'React', 'NLP', 'TensorFlow'],
+    github: '#',
+    featured: true,
+    color: '#C4A8FF',
+  },
+  {
+    id: 3,
+    title: 'MediFast',
+    subtitle: 'Online Medical Wellness Platform',
+    description: 'Online Medical Wellness Platform for physical health, selected for SIH Internal Hackathon — connecting patients with healthcare resources efficiently.',
+    icon: '🏥',
+    iconBg: 'rgba(255,214,128,0.1)',
+    status: 'hackathon',
+    statusLabel: '🏆 SIH Selected',
+    stack: ['React', 'Node.js', 'MongoDB', 'Express'],
+    github: '#',
+    color: '#FFD580',
+  },
+  {
+    id: 4,
+    title: 'eDNA Biodiversity Platform',
+    subtitle: 'Marine Research & Conservation',
+    description: 'Environmental DNA analysis platform for marine biodiversity research, conservation alerts, and citizen science contributions — built at hackathon speed.',
+    icon: '🌊',
+    iconBg: 'rgba(126,221,255,0.1)',
+    status: 'hackathon',
+    statusLabel: '⚡ Hackathon',
+    stack: ['Python', 'AI/ML', 'React', 'PostgreSQL'],
+    github: '#',
+    color: '#7EDDFF',
+  },
+  {
+    id: 5,
+    title: 'MoodTune',
+    subtitle: 'AI Playlist Generator',
+    description: 'Mood-Based Playlist Generator — an AI-powered web app that reads your emotional state and curates the perfect soundtrack for your moment.',
+    icon: '🎵',
+    iconBg: 'rgba(255,126,179,0.1)',
+    status: 'wip',
+    statusLabel: '◎ In Dev',
+    stack: ['AI/ML', 'Spotify API', 'React', 'Python'],
+    github: '#',
+    color: '#FF7EB3',
+  },
+  {
+    id: 6,
+    title: 'AiUPSKILL',
+    subtitle: 'Employee Upskilling Platform',
+    description: 'AI-Assisted Employee Upskilling Platform that personalizes learning paths, identifies skill gaps, and delivers targeted training content at scale.',
+    icon: '📈',
+    iconBg: 'rgba(255,214,128,0.1)',
+    status: 'wip',
+    statusLabel: '◎ In Dev',
+    stack: ['AI/ML', 'React', 'Node.js', 'LLM', 'TypeScript'],
+    github: '#',
+    color: '#FFD580',
+  },
+  {
+    id: 7,
+    title: 'Book Journal',
+    subtitle: 'Personal Reading Tracker',
+    description: 'Personal book journal website with Express/Node.js, PostgreSQL, and the Open Library Covers API — track your entire reading universe.',
+    icon: '📚',
+    iconBg: 'rgba(196,168,255,0.1)',
+    status: null,
+    statusLabel: null,
+    stack: ['Node.js', 'Express', 'PostgreSQL', 'EJS'],
+    github: '#',
+    color: '#C4A8FF',
+  },
+  {
+    id: 8,
+    title: 'Pokémon Stats Card',
+    subtitle: 'PokéAPI Explorer',
+    description: 'Random Pokémon stats card generator using the PokéAPI — because every developer needs a fun project that sparks joy and sharpens API skills.',
+    icon: '🎴',
+    iconBg: 'rgba(114,255,203,0.1)',
+    status: null,
+    statusLabel: null,
+    stack: ['JavaScript', 'PokéAPI', 'CSS', 'HTML'],
+    github: '#',
+    color: '#72FFCB',
+  },
+  {
+    id: 9,
+    title: 'NFT Marketplace',
+    subtitle: 'Web3 Marketplace',
+    description: 'NFT marketplace exploring blockchain technology, Web3 concepts, and decentralized applications — bridging traditional web with the decentralized frontier.',
+    icon: '🔮',
+    iconBg: 'rgba(126,221,255,0.1)',
+    status: null,
+    statusLabel: null,
+    stack: ['Motoko', 'JavaScript', 'React', 'Web3'],
+    github: '#',
+    color: '#7EDDFF',
+  },
+]
+
+export const timeline = [
+  {
+    year: '2024 — Present',
+    title: 'AI/ML Engineering',
+    desc: 'Deep-diving into AI-powered application development. Building MindfulAI, ClauseWise, MoodTune and AiUPSKILL — deploying LLMs and NLP in production environments.',
+    color: 'var(--lav)',
+  },
+  {
+    year: '2024',
+    title: 'Hackathon Missions',
+    desc: 'SIH Internal Hackathon selection for MediFast. Built eDNA Biodiversity Platform under pressure. Sharpening problem-solving instincts in competitive environments.',
+    color: 'var(--peach)',
+  },
+  {
+    year: '2023 — 2024',
+    title: 'Full-Stack Mastery',
+    desc: 'Expanded into React, TypeScript, PostgreSQL and MongoDB. Built the Book Journal and Pokémon projects. Mastered the MERN and PERN stacks fully.',
+    color: 'var(--cyan)',
+  },
+  {
+    year: '2023',
+    title: 'Backend & APIs',
+    desc: 'Built mastery in Node.js, Express, and REST API design. First exposure to Open Library and external APIs. Started Hacktoberfest contributions.',
+    color: 'var(--gold)',
+  },
+  {
+    year: '2022 — 2023',
+    title: 'Frontend Foundations',
+    desc: 'HTML, CSS, JavaScript and the fundamentals. First projects deployed. Discovered the joy of making things appear on screen through pure code.',
+    color: 'var(--rose)',
+  },
+]
+
+export const hackathons = [
+  {
+    icon: '🏆',
+    name: 'Smart India Hackathon',
+    project: 'MediFast — Online Medical Wellness Platform',
+    role: 'Full-Stack Developer',
+    result: 'Selected',
+    status: 'hackathon',
+    color: '#FFD580',
+  },
+  {
+    icon: '🌊',
+    name: 'Biodiversity Hackathon',
+    project: 'eDNA Marine Biodiversity Analysis Platform',
+    role: 'Lead Developer',
+    result: 'Competed',
+    status: 'wip',
+    color: '#7EDDFF',
+  },
+  {
+    icon: '🎃',
+    name: 'Hacktoberfest',
+    project: 'Open Source Contribution Challenge',
+    role: 'Contributor',
+    result: 'Completed + Holopin Badge',
+    status: 'live',
+    color: '#72FFCB',
+  },
+  {
+    icon: '🤖',
+    name: 'AI/ML Challenges',
+    project: 'AI-first application competitions',
+    role: 'AI Developer',
+    result: 'Active',
+    status: 'wip',
+    color: '#C4A8FF',
+  },
+]
+
+export const githubStats = {
+  repos: '15+',
+  contributions: '200+',
+  languages: '8+',
+  streak: '🔥',
+  username: 'ShristiC7',
+}
