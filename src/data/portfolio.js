@@ -12,7 +12,7 @@ export const personalInfo = {
   linkedin: 'https://www.linkedin.com/in/shristi-c-3a3518290',
   email: 'shristi70525@gmail.com',
   photoPlaceholder: false, // set to false and add photo URL when available
-  photoUrl: null,         // e.g. '/assets/shristi.jpg'
+  photoUrl: '/assets/photo.jpg',         // e.g. '/assets/shristi.jpg'
   available: true,
   funFacts: [
     { icon: '🎮', label: 'Strategy Gamer' },
