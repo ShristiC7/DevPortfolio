@@ -10,8 +10,8 @@ export const personalInfo = {
     'Passionate full-stack developer focused on impactful web applications. Operating at the intersection of AI/ML and modern web development — where intelligent systems meet beautiful interfaces.',
   github: 'https://github.com/ShristiC7',
   linkedin: 'https://www.linkedin.com/in/shristi-c-3a3518290',
-  email: 'shristi@example.com',
-  photoPlaceholder: true, // set to false and add photo URL when available
+  email: 'shristi70525@gmail.com',
+  photoPlaceholder: false, // set to false and add photo URL when available
   photoUrl: null,         // e.g. '/assets/shristi.jpg'
   available: true,
   funFacts: [
